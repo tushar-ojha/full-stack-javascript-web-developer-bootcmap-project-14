@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+* {
+  background-color: #f5f2f0;
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+}
+
+main {
+  display: flex;
+}
+
+.left {
+  width: 35%;
+}
+
+.left img {
+  width: 100%;
+}
+
+
+
+/* Navigation section starts here */
+ul {
+  list-style: none;
+}
+
+.right {
+  width: 64%;
+}
+
+.navigation {
+  padding: 1%;
+  margin-top: 1%;
+  display: flex;  
+  width: 64%;
+}
+
+.line {
+  margin-left: 2%;
+  margin-top: 1.5%;
+  width: 30%;
+  height: 1.5px;
+  background-color: black;
+}
+
+nav {
+  width: 65%;
+}
+
+.nav-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-items a {
+  color: grey;
+  text-decoration: none;
+}
+
+.nav-item-first a {
+  color: black;
+}
+/* Navigation section completed */
+
+
+
+
